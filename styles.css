@@ -333,7 +333,8 @@ body {
 .cert-border {
     position: relative;
     z-index: 2;
-    background: rgba(255, 255, 255, 0.88);
+    /* Reduced background opacity to 0.75 so the photo background is more visible */
+    background: rgba(255, 255, 255, 0.35);
     border: 2px solid var(--primary-green);
     padding: 25px 20px;
     border-radius: 6px;
